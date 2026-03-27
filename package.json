@@ -1,11 +1,14 @@
 {
+  "name": "textlint-playground",
+  "private": true,
+  "scripts": {
+    "lint": "textlint .",
+    "lint:fix": "textlint --fix .",
+    "fmt": "oxfmt"
+  },
   "devDependencies": {
-    "textlint": "^12.2.1",
-    "textlint-rule-ja-no-mixed-period": "^3.0.1",
-    "textlint-rule-preset-comnico": "^1.0.1"
-  },
-  "dependencies": {
-    "@textlint/types": "^12.1.0"
-  },
-  "version": "0.0.1"
+    "oxfmt": "^0.42.0",
+    "textlint": "^15.0.0",
+    "textlint-rule-preset-comnico": "^2.0.0"
+  }
 }

@@ -1,4 +1,5 @@
 {
-  "textlint.run": "onType",
-  "editor.formatOnSave": false
+  "oxc.enable.oxfmt": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode"
 }
